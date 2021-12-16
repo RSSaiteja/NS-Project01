@@ -1,0 +1,49 @@
+.layout {
+    display: grid;
+    grid-template-columns: 275px auto 350px;
+    width: 0 auto;
+    max-width: 1200px;
+}
+
+.layout_main{
+    width:650px;
+}
+
+.layout_right-sidebar{
+    right: 0;
+    position: fixed;
+    width:350px;
+    margin-right: 10px;
+}
+
+.layout_right-sidebar_container .layout_right-sidebar .Searchbar{
+    height:40px;
+    width:340px;
+    border-radius:20px;
+    background: #e6ecf0;
+    border-width: 0;
+    outline: none;
+    margin-bottom: 10px;
+
+}
+.Searchbar{
+    font-size: 15px;
+}
+.searchbar_combined{
+    display:flex;
+}
+
+.search_image{
+    height:26px;
+}
+
+.fa_icons{
+   display:flex;
+   justify-content: space-between;
+   margin-top:15px;
+}
+
+
+
+
+
